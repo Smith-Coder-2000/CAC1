@@ -8,3 +8,12 @@ div>.jumbotron{
     margin: auto;
     
 }
+
+.invalid{
+    color: #dc3545;
+}
+
+.valid{
+    color: #28a745;
+    font-size: 90%;
+}

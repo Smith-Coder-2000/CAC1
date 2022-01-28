@@ -10,7 +10,7 @@
         <div class="container">
             <div class="jumbotron st4">
               <h1 class="heading">Patient SignUp</h1>
-              <form class="needs-validation" id="form" onsubmit="return validate()" action="/index.html">
+              <form class="needs-validation" id="form" onsubmit="return validate()" action="/submit.html">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" onkeypress="return numlock(event)" class="form-control" id="name">
@@ -44,8 +44,49 @@
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="interest" id="inlineRadio4" value="option2">
                         <label class="form-check-label" for="inlineRadio5">Others</label>
-                    <span></span>
                     </div>
+                    <br>
+                    <span></span>
+                </div>
+                <div class="form-group">
+                    <label>What you liked in our campus? Select below</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="likes" value="Students" id="Check1">
+                        <label class="form-check-label" for="Check1">
+                        Students
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="likes" value="Location" id="Check2">
+                        <label class="form-check-label" for="Check2">
+                        Location
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="likes" value="Campus" id="Check3">
+                        <label class="form-check-label" for="Check3">
+                        Campus
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="likes" value="Atmosphere" id="Check4">
+                        <label class="form-check-label" for="Check4">
+                        Atmosphere
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="likes" value="Dorm rooms" id="Check5">
+                        <label class="form-check-label" for="Check5">
+                        Dorm rooms
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="likes" value="Sports" id="Check6">
+                        <label class="form-check-label" for="Check6">
+                        Sports
+                        </label>
+                    </div>
+                    <span></span>
                 </div>
                 <div class="form-group">
                     <label for="comments">Comments</label>

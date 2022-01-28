@@ -30,10 +30,6 @@ function validate(){
         return false
     }
     else{
-        $("#username").addClass("is-valid")
-        $("#username").removeClass("is-invalid")
-        $("#password").addClass("is-valid")
-        $("#password").removeClass("is-invalid")
         return true
     }
 }
